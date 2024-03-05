@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 2px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+}
+
+ul li {
+  display: inline;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 40px;
+}
+.image_container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.image_container img {
+  border-radius: 200px;
+  height: 270px;
+  width: 270px;
+}
+.textcontainer {
+  width: 70%;
+  margin: auto;
+}
+h1 {
+  font-size: 270%;
+  color: darkorchid;
+  text-align: center;
+}
+h3 {
+  font-weight: 150%;
+  font-size: 170%;
+  margin-left: 24%;
+  color: darkorange;
+}
+
+/* styles.css */
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Adjust height as needed */
+}
+
+.btn button {
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3498db; /* Choose your preferred background color */
+  color: #fffefe; /* Choose your preferred text color */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background:linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb)/* Choose your preferred background color on hover */
+}
+
+@media screen and (max-width: 412px) {
+  a {
+    padding: 8px;
+  }
+  .image_container img {
+    height: 220px;
+    width: 220px;
+  }
+  .textcontainer {
+    width: 100%;
+  }
+  h1 {
+    font-size: 170%;
+  }
+  h3 {
+    font-size: 140%;
+    margin-left: 8%;
+  }
+}
+.formconnect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.formconnect form input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width:97%;
+  border-radius: 22px;
+  padding-left: 12px;
+  border:1.5px solid rgb(201, 201, 201);
+}
+.formconnect form input:hover{
+  border:2.3px solid rgb(161, 221, 21);
+
+}
+.formconnect form textarea:hover{
+  border:2.3px solid rgb(161, 221, 21);
+
+}
+.formconnect form textarea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:  160px;
+  width:500px;
+  border-radius: 22px;
+  padding: 32px;
+  border-color: #333;
+  border-width: 2px;
+  border:1.5px solid rgb(201, 201, 201);
+}
+.formconnect form button{
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3498db; /* Choose your preferred background color */
+  color: #fffefe; /* Choose your preferred text color */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+.formconnect form button:hover{
+  background:linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);
+}
+.socialconnect{
+  position: relative;
+  margin: auto;
+ text-align: center;
+  width: 90%;
+}
+
+.imagessocial{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.imagessocial img{
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 412px){
+  .formconnect{
+    padding: 15px;
+  }
+  .formconnect form input{
+    width:300px;
+    position: relative;
+    margin: auto;
+  }
+  .formconnect form textarea{
+    width: 270px;
+  }
+}
+
+.image_container_about img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 20px;
+  margin-top: 60px;
+}
+.image_container_about{
+  width: 19%;
+}
+.textcontainer_about{
+  position: relative;
+  margin: auto;
+  margin-top: -229px;
+  width: 50%;
+}
+.container{
+  display:flex ;
+  flex-direction: row;
+  margin-top: 6%;
+  justify-content: center;
+  align-items: center;
+}
+.skills{
+  height: 300px;
+  padding: 17px;
+  color: #fff;
+  
+  width: 20%;
+  border-radius: 10%;
+  margin-top: 5%;
+  position: relative;
+  margin:auto;
+  background:linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);
+  cursor: pointer;
+}
+h4{
+  text-align: center;
+}
+.Languages{
+  
+  height: 300px;
+  padding: 20px;
+  color: #fff;
+  
+  width: 20%;
+  border-radius: 10%;
+  background:linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);
+  margin-top: 5%;
+  position: relative;
+  margin:auto;
+  cursor: pointer;
+}
+
+.textcontainer_about h3{
+  font-size: 100%;
+  margin-left: 0%;
+  text-align: center;
+}
+
+.Languages li{
+  padding: 15px;
+}
+
+.Hobbies{
+  
+  height: 300px;
+  padding: 20px;
+  color: #fff;
+  
+  width: 20%;
+  border-radius: 10%;
+  position: relative;
+  margin:auto;
+  background:linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);
+  cursor: pointer;
+  
+}
+.Hobbies Li{
+  padding: 15px;
+}
+.CLASSX{
+  height: 200px;
+  padding: 17px;
+  color: #fff;
+  
+  width: 20%;
+  border-radius: 10%;
+  margin-top: 5%;
+  position: relative;
+  margin:auto;
+  margin-bottom: 2%;
+  background:linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);
+  cursor: pointer;
+}
+
+.CLASSXII{
+  height: 200px;
+  padding: 17px;
+  color: #fff;
+  
+  width: 20%;
+  border-radius: 10%;
+  margin-top: 5%;
+  position: relative;
+  margin:auto;
+  margin-bottom: 2%;
+  background:linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);
+  cursor: pointer;
+}
+.Undergraduation{
+  height: 200px;
+  padding: 17px;
+  color: #fff;
+  
+  width: 20%;
+  border-radius: 10%;
+  margin-top: 5%;
+  position: relative;
+  margin:auto;
+  margin-bottom: 2%;
+  background:linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);
+  cursor: pointer;
+}
+h2{
+text-align: center;
+font-size:250%
+}
+/* Existing styles remain unchanged */
+
+/* Responsive styles for screens with a width of 412px or smaller */
+@media only screen and (max-width: 412px) {
+
+
+    .image_container_about img {
+        height: 150px;
+        width: 150px;
+        margin-top: 30px;
+    }
+
+    .image_container_about {
+        width: 100%;
+        text-align: center;
+    }
+
+    .textcontainer_about {
+        width: 80%;
+        margin-top: -10px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 3%;
+    }
+
+    .skills,
+    .Languages,
+    .Hobbies {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    .CLASSX,
+    .CLASSXII,
+    .Undergraduation {
+        width: 80%;
+        margin-top: 5%;
+    }
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.projects img{
+  width: 360px;
+  height: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+ figcaption{
+ color: #333;
+ text-align: center;
+
+}
+@media only screen and (max-width: 412px){
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+  }
+  .projects img{
+    width: 299px;
+    height: 140px;
+    border-radius: 13px;
+    cursor: pointer;
+  }
+
+}
